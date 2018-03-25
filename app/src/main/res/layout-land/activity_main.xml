@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.goslinglovelaceapplicationbasic.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="James_Gosling"
+        android:textAllCaps="true"
+        android:textColor="#FF6600"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_marginLeft="30dp"
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/james_gosling" />
+
+        <ScrollView
+            android:layout_marginLeft="300dp"
+            android:layout_width="300dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="James Gosling received a Bachelor of Science
+                from the University of Calgary [4] and his M.A. and Ph.D.
+                from Carnegie Mellon University.[2][5][6] He wrote a version of Emacs
+                called Gosling Emacs (Gosmacs) while working toward his doctorate.
+                 He built a multi-processor version of Unix for a 16-way computer system[7] while at Carnegie Mellon University,
+                  before joining Sun Microsystems. He also developed several compilers and mail systems there.
+                  James Gosling received a Bachelor of Science
+                from the University of Calgary [4] and his M.A. and Ph.D.
+                from Carnegie Mellon University.[2][5][6] He wrote a version of Emacs
+                called Gosling Emacs (Gosmacs) while working toward his doctorate.
+                 He built a multi-processor version of Unix for a 16-way computer system[7] while at Carnegie Mellon University,
+                  before joining Sun Microsystems. He also developed several compilers and mail systems there."
+                android:textColor="#000000"
+                android:textSize="16sp" />
+        </ScrollView>
+    </RelativeLayout>
+
+
+</LinearLayout>
