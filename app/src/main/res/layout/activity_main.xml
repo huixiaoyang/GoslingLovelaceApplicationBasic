@@ -31,7 +31,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="30sp"
                 android:singleLine="false"
-                android:text="Ada Lovelace was the only legitimate child of the poet Lord Byron, and his wife Anne Isabella Milbanke, Lady Wentworth.[4] All of Byron's other children were born out of wedlock to other women.[5] Byron separated from his wife a month after Ada was born and left England forever four months later. He commemorated the parting in a poem that begins, Is thy face like thy mother's my fair child! ADA! sole daughter of my house and heart? He died of disease in the Greek War of Independence when Ada was eight years old. Her mother remained bitter and promoted Ada's interest in mathematics and logic in an effort to prevent her from developing her father's perceived insanity. Despite this, Ada remained interested in Byron and was, upon her eventual death, buried next to him at her request. She was often ill in her childhood. Ada married William King in 1835. King was made Earl of Lovelace in 1838, and Ada in turn became Countess of Lovelace."/>
+                android:text="@string/lovelace"/>
         </ScrollView>
 
     </LinearLayout>
